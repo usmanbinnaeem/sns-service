@@ -26,7 +26,6 @@ export class SnsStack extends cdk.Stack {
     })
 
     const snsTopic = new sns.Topic(this, "SNS_TOPIC", {
-      topicName: "SNS Topic",
       displayName: "SNS Subscription"
     })
 
